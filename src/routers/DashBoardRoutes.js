@@ -9,7 +9,7 @@ import { SearchScreen } from '../components/search/SearchScreen';
 export const DashBoardRoutes = () => {
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar />
       <div className="container-fluid mt-2">
         <Switch>
           <Route exact path="/dc" component={DCScreen} />
